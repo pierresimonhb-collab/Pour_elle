@@ -64,6 +64,9 @@ st.title("Clique sur le cœur à chaque fois que tu veux un compliment bb")
 if st.button("❤️"):
     # On choisit un poème ou compliment au hasard
     choix = random.choice(poemes_et_compliments)
+    phrase_finale = f"N'oublie jamais que tu es :**{choix}**."
     
-    # On l'affiche joliment dans notre boîte stylisée en CSS
-    st.markdown(f'<div class="compliment-box">{choix.replace("\n", "<br>")}</div>', unsafe_allow_html=True)
+    # Affichage dans la boîte stylisée
+    st.markdown(f'<div class="compliment-box">✨ {phrase_finale}</div>', unsafe_allow_html=True)
+    
+   
