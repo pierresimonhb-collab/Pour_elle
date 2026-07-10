@@ -56,7 +56,7 @@ st.markdown("""
 
 # --- CHARGEMENT DES POÈMES ---
 
-poemes_et_compliments=["magnifique","drole","forte au rugby","rayonnant","musclée","combattive","classe","talents lectuaires indéniables","bien foutue","souriante","intelligente","impliquée","belle","sublime","hypnotisante"]
+poemes_et_compliments=["trop magnifique","méchamment drole","forte au rugby (c'est impressionnant)","vraiment rayonnante","vraiment musclée","super combattive","hyper classe","une tueuse au lit","hyper bien foutue"," plutot souriante","drolement intelligente","presque impliquée","carrément belle","au delà de sublime","hypnotisante"]
 # --- INTERFACE ---
 st.title("Clique sur le cœur à chaque fois que tu veux un compliment bb")
 
@@ -64,9 +64,9 @@ st.title("Clique sur le cœur à chaque fois que tu veux un compliment bb")
 if st.button("❤️"):
     # On choisit un poème ou compliment au hasard
     choix = random.choice(poemes_et_compliments)
-    phrase_finale = f"N'oublie jamais que tu es :**{choix}**."
+    phrase_finale = f"N'oublie jamais que tu es : {choix}."
     
     # Affichage dans la boîte stylisée
-    st.markdown(f'<div class="compliment-box">✨ {phrase_finale}</div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="compliment-box"> {phrase_finale}</div>', unsafe_allow_html=True)
     
    
