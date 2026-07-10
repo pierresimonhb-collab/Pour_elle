@@ -58,7 +58,7 @@ st.markdown("""
 
 poemes_et_compliments=["magnifique","drole","forte au rugby","rayonnant","musclée","combattive","classe","talents lectuaires indéniables","bien foutue","souriante","intelligente","impliquée","belle","sublime","hypnotisante"]
 # --- INTERFACE ---
-st.title("Clique sur le cœur pour chaque fois où tu penses à moi... ✨")
+st.title("Clique sur le cœur à chaque fois que tu veux un compliment bb")
 
 # Bouton interactif
 if st.button("❤️"):
