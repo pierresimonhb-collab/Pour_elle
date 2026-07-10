@@ -56,7 +56,7 @@ st.markdown("""
 
 # --- CHARGEMENT DES POÈMES ---
 
-poemes_et_compliments=["trop magnifique","méchamment drole","un peu directive", "dotée du pétard de l'année","riche (ça m'arrange pour le mariage)","très bien entourée (surtout quand je suis là)","une indispensable stagiaire","plus forte à la salle que Malo","une meuf badass qui fait des saltos","une trop bonne cuisinière (bonne et cuisinière),"forte au rugby (c'est impressionnant)","vraiment rayonnante","beaucoup trop musclée","super combattive","hyper classe","une tueuse au lit","hyper bien foutue"," plutot souriante","drolement intelligente","presque impliquée","carrément belle","au delà de sublime","hypnotisante"]
+poemes_et_compliments=["trop magnifique","méchamment drole","un peu directive", "dotée du pétard de l'année","riche (ça m'arrange pour le mariage)","très bien entourée (surtout quand je suis là)","une indispensable stagiaire","plus forte à la salle que Malo","une meuf badass qui fait des saltos","une trop bonne cuisinière (bonne et cuisinière)","forte au rugby (c'est impressionnant)","vraiment rayonnante","beaucoup trop musclée","super combattive","hyper classe","une tueuse au lit","hyper bien foutue"," plutot souriante","drolement intelligente","presque impliquée","carrément belle","au delà de sublime","hypnotisante"]
 # --- INTERFACE ---
 st.title("Clique sur le cœur à chaque fois que tu veux un compliment bb")
 
